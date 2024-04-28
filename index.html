@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="playWithComputer.css" type="text/css" media="screen"/>
+    <title>Play the Hangman game with the Computer</title>
+</head>
+<body>
+    <header>
+        <nav class="topnav">
+            <a href="#home" class="nav-link" id="home_click">Home</a>
+            <a href="#newgame" class="nav-link" id="newgame_click">New Game</a>
+        </nav>
+    </header>
+    <div class="content" id="home">
+        <span class="content-text" id="home_span"><h1>Welcome to our Hangman game!</h1>
+
+            <p>Embark on a word-guessing adventure with our classic Hangman game. Simple, yet endlessly entertaining, our game brings the timeless fun of the pen-and-paper favorite to your fingertips.</p>
+            
+            <p>Guess letters, uncover hidden words, and race against the clock as you challenge yourself to outsmart our clever computer opponent. With a curated selection of words and an intuitive interface, our game is perfect for players of all ages and skill levels.</p>
+            
+            <p>But the fun doesn't stop there. Our game is not just about competition—it's about learning and expanding your vocabulary. Every round offers an opportunity to discover new words and improve your language skills in a fun and engaging way.</p>
+            
+        <p>So why wait? Dive in, start guessing, and see how many words you can uncover. Hours of entertainment await you in our Hangman game!</p>
+            
+            <h1>Happy guessing!</h1>
+            
+            </span>
+    </div>
+    <div class="content" id="newgame">
+        <div id="newgame_word" class="word-display"></div>
+        <span id="newgame_spanMan" class="lives-display"></span>
+        <div id="newgame_spanButton" class="button-container"></div>
+    </div>
+    <script src="playWithComputer.js"></script>
+</body>
+</html>
